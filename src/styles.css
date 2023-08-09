@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif:wght@400;700&family=Poppins:wght@100;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,500&display=swap");
+
+.App {
+  font-family: "Poppins";
+  text-align: center;
+}
+
+body {
+  background-color: #faf5ff;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  text-align: left;
+  background-color: #2980b9;
+  padding: 1rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.home--div {
+  padding: 1rem;
+}
+
+.menu--card {
+  width: 20rem;
+  box-shadow: 0 2px 4px rgba(105, 83, 83, 0.3);
+  position: relative;
+  text-align: left;
+  position: relative;
+  height: 100%;
+}
+
+.menu--card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.menu--card h4 {
+  margin-left: 10px;
+}
+
+.menu--card p {
+  font-size: 14px;
+  margin: 10px;
+  color: rgb(95, 95, 95);
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.star--icon {
+  font-size: 12px;
+}
+
+.rating--div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.restaurants--div {
+  text-align: left;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.details--body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.details--div {
+  width: 60%;
+  align-self: center;
+}
+
+.detailsPage--top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  gap: 6rem;
+}
+
+.review--card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  gap: 6rem;
+  border-bottom: 1px solid black;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.reviewCard--icons {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.review--card img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+.review--card .profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 80%;
+}
+
+.review--modal {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+/* Styles for labels */
+.review--modal label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Styles for inputs */
+.review--modal input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.review--modal select {
+  margin-bottom: 15px;
+}
+
+/* Styles for the add button */
+.review--modal button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.review--modal button:hover {
+  background-color: #0056b3;
+}
+i {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
